@@ -1,8 +1,14 @@
 .status-bar {
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  width: 100%;
+  /* 부모인 nav위에 body의 너비100%에 간다 */
   display: flex;
   justify-content: center;
   /* flex 축을 따라 떨어뜨림 */
   padding: 5px 3px;
+  
 }
 
 .status-bar__column {
